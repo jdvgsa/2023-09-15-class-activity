@@ -1,0 +1,46 @@
+/* Body text */
+body {
+  font-family: "lato", sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  
+  color: hsl(106, 85%, 95%);
+  background-color: hsl(133, 83%, 49%);
+  
+  }
+  
+  /* Call-to-action container */
+  .cta {
+  max-width: 50ch;
+  background-color: hsl(105, 88%, 25%);
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: auto;
+  margin-top: 5rem;
+  }
+  
+  /* Call to Action "button" */
+  .cta a, .cta a:visited {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+  padding: 0.5rem 1rem;
+  background-color: hsl(64, 98%, 51%);
+  text-decoration: none;
+  color: hsl(50, 84%, 41%);
+  border-radius: .5rem;
+  
+  margin: auto;
+  display: block;
+  width: fit-content;
+  }
+  
+  /* Hover state */
+  .cta a:hover {
+    color: hsl(50, 100%, 10%);
+    background-color: hsl(50, 50%, 95%);
+  }
+  
+  /* Click state */
+  .cta a:active {
+    color: hsl(251, 70%, 38%);
+    background-color: hsl(183, 90%, 33%);
+  }
