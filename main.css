@@ -12,8 +12,9 @@ body {
   
   /* Call-to-action container */
   .cta {
-  max-width: 50ch;
-  background-color: hsl(145, 96%, 33%);
+    background-color: hsl(145, 96%, 33%);
+    max-width: 50ch;
+    
   padding: 2rem;
   border-radius: 1rem;
   margin: auto;
