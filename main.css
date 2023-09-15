@@ -3,8 +3,9 @@ body {
   font-family: "lato", sans-serif;
   font-size: 22px;
   line-height: 1.5;
-  
-  color: hsl(106, 85%, 95%);
+
+
+  color: hsl(0, 0%, 0%);
   background-color: hsl(133, 83%, 49%);
   
   }
@@ -12,7 +13,7 @@ body {
   /* Call-to-action container */
   .cta {
   max-width: 50ch;
-  background-color: hsl(105, 88%, 25%);
+  background-color: hsl(145, 96%, 33%);
   padding: 2rem;
   border-radius: 1rem;
   margin: auto;
@@ -23,9 +24,9 @@ body {
   .cta a, .cta a:visited {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
   padding: 0.5rem 1rem;
-  background-color: hsl(64, 98%, 51%);
+  background-color: hsl(253, 98%, 47%);
   text-decoration: none;
-  color: hsl(50, 84%, 41%);
+  color: hsl(207, 84%, 10%);
   border-radius: .5rem;
   
   margin: auto;
@@ -36,11 +37,11 @@ body {
   /* Hover state */
   .cta a:hover {
     color: hsl(50, 100%, 10%);
-    background-color: hsl(50, 50%, 95%);
+    background-color: hsl(51, 80%, 38%);
   }
   
   /* Click state */
   .cta a:active {
-    color: hsl(251, 70%, 38%);
+    color: hsl(0, 100%, 46%);
     background-color: hsl(183, 90%, 33%);
   }
